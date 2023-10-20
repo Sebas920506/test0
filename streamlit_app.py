@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # Crear un DataFrame simple
-df = pd.print({
+df = st.write({
     'Mensaje': ['En canadá esto no funcionó ¯\_(ツ)_/¯']
 })
 
